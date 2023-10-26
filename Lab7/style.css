@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(240, 217, 245);
+  margin: 0px;
+  padding: 0px;
+text-align: center;
+  font-family: Andalus;
+  font-size: x-large;
+  font-weight: bold;
+}
+h1 {
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #2f5a78;
+}
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+h2 {
+  color: #2f5a78;
+  font-size: 20px;
+  padding-bottom: 2px;
+  border-top: 1px solid #0c8df0;
+}
+form {
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  background-color: rgb(238, 234, 234);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #239c05;
+}
+#addButton {
+  display: block;
+  text-decoration: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+.error {
+  visibility: hidden;
+  color: red;
+  font-size: 18px;
+  font-weight: italic;
+  text-align: center;
+  display: inline-block;
+}
+.showError {
+  visibility: visible;
+}
+.textBoxError {
+  border: 2px solid red;
+}
+
+table {
+  text-align: center;
+  margin: 10px auto;
+  width: 500px;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  border-radius: 10px;
+  border: 2px solid #239c05;
+}
+span {
+  color: red;
+  display: none;
+}
+.SD {
+  background-color: lightpink;
+}
+
+.OS {
+  background-color: lightyellow;
+}
+
+.EL {
+  background-color: lightskyblue;
+}
+/* *************************  */
+.basket {
+  width: 150px;
+  height: 90px;
+  position: absolute;
+  bottom: 10px;
+}
+.egg {
+  left: -60px;
+  top: -90px;
+  width: 60px;
+  height: 90px;
+  position: absolute;
+}

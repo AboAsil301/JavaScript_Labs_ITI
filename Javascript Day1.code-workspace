@@ -1,0 +1,39 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../2023/Ahmed Reda Project"
+	},
+	{
+		"path": "../../../2023/Resume Project"
+	},
+	{
+		"path": "../../2023/G2 2023/Javascript/Javascript Day4"
+	},
+	{
+		"path": "../../2023/G2 2023/Javascript/Javascript Day5"
+	},
+	{
+		"path": "../../2023/G2 2023/Javascript/Javascript Day6"
+	},
+	{
+		"path": "../Javascript Day4"
+	},
+	{
+		"path": "../Javascript Day5/Demoes"
+	},
+	{
+		"path": "../Javascript Day6/Demoes"
+	},
+	{
+		"path": "../Javascript Day7/demoes"
+	}
+],
+  "settings": {
+    "window.autoDetectColorScheme": true,
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "Javascript Day1"
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StudentForm</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="ConsumingScript.js"></script>
+        <script src="functionsScript.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>JavaScript Lab 7 By Ahmed Reda Abd Elbaset Ismail</h1>
+        </div>
+        <section id="section3">
+            <h2> <u> The first question (StudentForm) </u></h2>
+            <form>
+
+                <label for="studentDepartment">Department:</label>
+                <input type="radio" id="SD" name="studentDepartment" value="SD"
+                    checked="checked" /><label for="SD">SD</label>
+                <input type="radio" id="OS" name="studentDepartment" value="OS" />
+                <label for="OS">OS</label>
+                <input type="radio" id="EL" name="studentDepartment" value="EL" /><label
+                    for="EL">EL</label>
+                <br>
+                <label for="studentName">StudentName:</label>
+                <input type="text" id="studentName" class="studentName"
+                    autocomplete="off">
+                <div class="error"><p>
+                        Enter Text Only <br> Name cannot be empty
+                    </p></div>
+                <label for="studentGrade">StudentGrade:</label>
+                <input type="text" id="studentGrade" class="studentGrade"
+                    autocomplete="off">
+                <div class="error"><p>Enter Number Only <br> Between 0 and 100</p>
+                </div>
+                <button type="button" id="addButton">Add</button>
+                <br>
+                <label for="searchTxt">Search</label>
+                <input id="searchTxt" type="text" name="searchTxt" />
+                <div class="error"><p>should be number</p>
+                </div>
+                <br>
+                <label for="filter">Filter:</label>
+                <select id="filter">
+                    <option value="all">All</option>
+                    <option value="success">Success</option>
+                    <option value="fail">Fail`</option>
+                </select>
+                <br>
+                <label for="sort">Sort:</label>
+                <select id="sort">
+                    <option value="Name">Name</option>
+                    <option value="Grade">Grade</option>
+                </select>
+            </form>
+
+        </section>
+        <table id="studentsData">
+        </table>
+
+        <!-- <script src="studentForm.js"></script> -->
+
+    </body>
+</html>

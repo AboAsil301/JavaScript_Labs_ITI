@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="functionsScript.js"></script>
+        <!-- <script src="ConsumingScript.js"></script> -->
+        <style>
+       
+            .bPink {
+            background-color: pink;
+        }
+
+        .bGrey {
+            background-color: lightgray;
+        }
+
+        .fontLarge  {
+            font-size: large;
+        }
+
+        .fontGreen {
+            color: green;
+        }
+
+        .fontBlue{
+            color: Blue;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- <h1  class="bGrey"> Selectors </h1> -->
+        <p id="paragraph1"> Selectors are used to fetch page
+            elements
+            inside an Array </p>
+
+        <ul>
+            <li class="a"><code><i>tag</i></code>: Select all of the
+                &lt;tag&gt; elements</li>
+            <li class="a"><code><i>.className</i></code>: Select all
+                elements that have the <i>className</i> class
+                applied</li>
+            <li class="b"><code>#identifier</code>: Select the
+                element
+                with the id of <i>identifier</i></li>
+            <li class="b"><code><i>tag.className</i></code>: Select
+                all
+                &lt;tag&gt; elements that have the <i>className</i>
+                class applied</li>
+        </ul>
+
+        <h1>Css Hierarchy Selectors</h1>
+        <p>To select elements based on their position in the
+            document
+            tree, use the Hierarchy Selectors.</p>
+        <p>The Hierarchy Selectors work by examining the position of
+            target elements relative to other elements:</p>
+        <ol>
+            <li><code>parent > child</code>: selects "child"
+                elements
+                that are immediate descendants of the "parent"</li>
+            <li><code>ancestor descendant</code>: selects
+                "descendant"
+                elements as long as they have an "ancestor" element
+                somewhere above them</li>
+            <li><code>prev + next</code>: selects the "next" element
+                if
+                it is immediately preceded by a "prev" element</li>
+            <li><code>prev ~ siblings</code>: selects all "siblings"
+                elements that come after a "prev" element</li>
+        </ol>
+
+        <div>
+            <select name="city" id="city-dropdown" title="city-dropdown">
+                <option value="mans">Mansoura</option>
+                <option value="Aga">Aga</option>
+                <option value="cairo">Cairo</option>
+                <option value="alex">Alex</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+
+        <div id="example" name="exampleDiv">
+            <a><p class="a">This is paragraph 1 </p></a>
+            <p id="para2">This is paragraph 2 </p>
+            <p class="bGrey fontBlue">This is paragraph 3 <span>
+                    this is span 1</span> </p>
+            <span> <p id="para4">This is paragraph 4 </p></span>
+        </div>
+
+        <img src="images/1.jpg" class="images" title="images" />
+        <img src="images/2.jpg" title="images" />
+
+        <h3> HTML Table 1</h3>
+        <table class="bGrey">
+            <tr><td>Cell 1 </td><td> Cell 2</td> </tr>
+            <tr><td>Cell 3 </td><td> Cell 4</td> </tr>
+            <tr><td>Cell 5 </td><td> Cell 6</td> </tr>
+        </table>
+        <h3> HTML Table 2</h3>
+        <table class="bPink">
+            <tr><td><a href="http://www.iti.gov.eg"> ITI </a> </td><td>
+                    Cell 2</td> </tr>
+            <tr><td><a href="http://www.google.com"
+                        id="googleAnchor"> google </a> </td><td>
+                    Cell 4</td> </tr>
+            <tr><td><a href="next.html"> MyPage </a> </td><td> Cell
+                    6</td> </tr>
+        </table>
+
+        <h3> HTML Form </h3>
+        <form name="basicForm" class="bGrey fontBlue">
+            <fieldset>
+
+                <legend> Filters Form </legend>
+
+                <input type="text" name="userName"
+                    value="Type your name here"
+                    placeholder="Type your name here" />
+                <br />
+                <input type="text" name="ageText"
+                    value="Type your age"
+                    placeholder="Type your age" />
+                <br />
+                <input type="button" value="send" />
+            </fieldset>
+        </form>
+        <form name="regForm" action="Data.aspx">
+            <input type="checkbox" name="hoppy" value="1" checked
+                title="Running" />Running
+            <input type="checkbox" name="hoppy" value="2"
+                title="Swimming" />Swimming
+            <input type="checkbox" name="hoppy" value="3"
+                title="Reading" />Reading<br />
+            <select name="City" class="bPink" title="City">
+                <option value="1">Mansoura</option>
+                <option value="2">Cairo</option>
+                <option value="3">Alex</option>
+            </select>
+            <input type="submit" value="Send" />
+        </form>
+        <!-- <script src="selectors.js"></script> -->
+       <script src="ConsumingScript.js"></script>
+
+    </body>
+</html>
